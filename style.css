@@ -1,0 +1,56 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: rgba(111, 63, 117, 0.8);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#header{
+    color: #fff;
+    font-weight: bolder;
+    font-size: 60px;
+}
+
+.options{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    margin-bottom: 40px;
+}
+
+#letter{
+    color: #fff;
+    font-size: 20px;
+}
+
+#numberOfLetter{
+    margin-right: 15px;
+    border: solid black 2px;
+    border-radius: 4px;
+    width: 35px;
+    max-width: fit-content;
+}
+
+#numberToggle{
+    color: #fff;
+    font-size: 20px;
+}
+
+#numberInPassword{
+    margin-right: 25px;
+}
+
+#symbolToggle{
+    color: #fff;
+    font-size: 20px;
+}
+
+#password{
+    color: #fff;
+    font-size: 30px;
+    font-weight: bold;
+    letter-spacing: 4px;
+}

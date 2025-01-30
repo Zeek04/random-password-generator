@@ -12,9 +12,13 @@
     </header>
 
     <div class="options">
-        <p id="letter">Select amount of characters <input type="number" name="#" id="numberOfLetter" ></p>
+        <p id="letter">Select amount of characters <input type="number" name="#" min="0" max="20" id="numberOfLetter" ></p>
         <p id="numberToggle">Numbers <input type="checkbox" name="numbersToggle" id="numberInPassword"></p>
-        <p id="'symbolToggle">Symbols <input type="checkbox" name="symbolsToggle" id="symbolsInToggle"></p>
+        <p id="symbolToggle">Symbols <input type="checkbox" name="symbolsToggle" id="symbolsInToggle"></p>
+    </div>
+
+    <div class="password-container">
+        <p id="password"></p>
     </div>
 </body>
 <script src="script.js"></script>
